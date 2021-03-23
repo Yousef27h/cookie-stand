@@ -8,13 +8,19 @@ table, th, td {
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
 }
+header{
+    border-top: solid;
+    border-bottom: ridge;
+    margin-bottom: 40px;
+    margin-top: 3px;
+    padding-bottom: 5px;
+}
 h1{
     font-family: 'Indie Flower', cursive;
     font-size: 300%;
-    border-top: solid;
-    border-bottom: ridge;
+    float: left;
+    margin-top: 9px;
     margin-bottom: 0px;
-    margin-top: 3px;
 }
 h1,h2,th,td{
     color: #1b263b;
@@ -22,27 +28,72 @@ h1,h2,th,td{
 h2{
     font-family: 'Fira Sans', sans-serif;
 }
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-top: 40px;
     overflow: hidden;
   }
   
-  li {
+nav ul li {
     float: left;
     font-family: 'Fira Sans', sans-serif;
   }
   
-  li a {
+nav ul li a {
     display: block;
     padding: 20px;
-    padding-left: 50px;
+    padding-left: 70px;
     padding-right: 50px;
-    background-color: #abc4ff;
     text-decoration: none;
     text-align: center;
-    border-style:ridge;
-    border-color: #b6ccfe;
+    font-size: 22px;
   }
- 
+
+  .left-col{
+      float: left;
+      width: 80%;
+
+  }
+  .left-col img:first-of-type{
+      width: 25%;
+      height: 290px;
+      margin-right: 5px;
+  }
+
+  .left-col img:nth-of-type(2){
+      width: 74%;
+      height: 290px;
+      float: right;
+  }
+  .left-col img:nth-of-type(3){
+      width: 30%;
+  }
+ .left-col img:nth-of-type(4){
+    width: 69%;
+    margin-left: 1%;
+ }
+
+ .left-col img:nth-of-type(5){
+    width: 21%;
+ }
+ .left-col img:nth-of-type(6){
+    width: 49%;
+ }
+ .left-col img:nth-of-type(7){
+    width: 30%;
+ }
+ .right-col {
+     float: right;
+     width: 19%;
+     font-family: 'Fira Sans', sans-serif;
+     font-size: 25px;
+     color: #1b263b;
+     border-left: solid;
+     padding-left: 10px;
+ }
+ main a{
+     text-decoration: none;
+     font-size: 25px ;
+ }
