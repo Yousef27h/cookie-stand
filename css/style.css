@@ -133,3 +133,16 @@ nav ul li a {
      float: left;
      margin-left: 80px;
  }
+ #locForm{
+     margin: 5px;
+     padding-left: 10px;
+     padding-top: 10px;
+     border-top: ridge;
+     border-bottom: ridge;
+     font-family: 'Fira Sans', sans-serif;
+
+ }
+ main{
+     margin: 10px;
+ }
+ 
