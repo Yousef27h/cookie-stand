@@ -78,7 +78,7 @@ nav ul li a {
 
   .left-col{
       float: left;
-      width: 80%;
+      width: 78%;
 
   }
   .left-col img:first-of-type{
@@ -124,4 +124,12 @@ nav ul li a {
  }
  main h3{
      margin-top: 30px;
+ }
+
+ .left{
+     float: left;
+ }
+ .right{
+     float: left;
+     margin-left: 80px;
  }
