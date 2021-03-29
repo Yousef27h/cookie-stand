@@ -68,6 +68,7 @@ const tableEl = document.getElementById('myTable');
 function tableFooter(){
   const totRowEl = document.createElement('tr');
   totRowEl.id = 'lastRow';
+  // totRowEl.setAttribute('id','lastRow');
   tableEl.appendChild(totRowEl);
   const tothEl = document.createElement('th');
   totRowEl.appendChild(tothEl);
